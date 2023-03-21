@@ -35,3 +35,4 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           ls 
+          CI\Build\Build.bat Unreal_CI_GitHubEditor Win64 Development -Project="Unreal_CI_GitHub.uproject" -WaitMutex -FromMsBuild
